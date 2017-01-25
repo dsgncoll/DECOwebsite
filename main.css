@@ -51,7 +51,8 @@ html, body {
       flex-direction: column; }
       @media only screen and (min-width: 768px) {
         .slides-wrapper .slide .title-content {
-          padding: 15%;
+          padding: 19%;
+          padding-bottom: 15%;
           padding-top: 5%; } }
       .slides-wrapper .slide .title-content .title-logo {
         width: 100%;
@@ -68,7 +69,7 @@ html, body {
         padding-bottom: 10%; }
         @media only screen and (min-width: 960px) {
           .slides-wrapper .slide .title-content h2 {
-            font-size: 3rem;
+            font-size: 2.9rem;
             padding-bottom: 5%; } }
       .slides-wrapper .slide .title-content h3 {
         font-family: gotham_rounded_book;
@@ -78,7 +79,7 @@ html, body {
         line-height: 130%; }
         @media only screen and (min-width: 960px) {
           .slides-wrapper .slide .title-content h3 {
-            font-size: 2.1rem; } }
+            font-size: 2.0rem; } }
       .slides-wrapper .slide .title-content .descrip-text {
         font-family: gotham_rounded_book;
         color: #111; }
@@ -92,7 +93,9 @@ html, body {
       flex-direction: column; }
       @media only screen and (min-width: 768px) {
         .slides-wrapper .slide .slide-content {
-          padding: 15%; } }
+          padding: 19%;
+          padding-top: 10%;
+          padding-bottom: 13%; } }
       .slides-wrapper .slide .slide-content .logo {
         width: 80%;
         margin-bottom: 10%;
@@ -107,7 +110,7 @@ html, body {
         padding-bottom: 10%; }
         @media only screen and (min-width: 960px) {
           .slides-wrapper .slide .slide-content h2 {
-            font-size: 3rem;
+            font-size: 2.8rem;
             padding-bottom: 5%; } }
       .slides-wrapper .slide .slide-content h3 {
         font-family: gotham_rounded_book;
@@ -117,7 +120,7 @@ html, body {
         line-height: 130%; }
         @media only screen and (min-width: 960px) {
           .slides-wrapper .slide .slide-content h3 {
-            font-size: 2.1rem; } }
+            font-size: 2.0rem; } }
       .slides-wrapper .slide .slide-content p {
         font-family: gotham_rounded_book;
         font-size: 1rem; }
