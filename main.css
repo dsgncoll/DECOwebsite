@@ -145,7 +145,7 @@ html, body {
         font-size: 1rem; }
         @media only screen and (min-width: 960px) {
           .slides-wrapper .slide .contact-card p {
-            font-size: 3rem; } }
+            font-size: 1.5rem; } }
       .slides-wrapper .slide .contact-card .social-icon {
         display: inline-block;
         margin-right: 5%;
@@ -154,10 +154,10 @@ html, body {
         width: 7%; }
         @media only screen and (min-width: 960px) {
           .slides-wrapper .slide .contact-card .social-icon {
-            width: 4%;
-            margin-top: 5%;
-            margin-left: 3%;
-            margin-right: 3%; } }
+            width: 2%;
+            margin-top: 2%;
+            margin-left: 1%;
+            margin-right: 1%; } }
     .slides-wrapper .slide .slide-base {
       text-align: center; }
       .slides-wrapper .slide .slide-base .scroll {
