@@ -67,8 +67,6 @@ html, body {
 			padding-left: 15%;
 			padding-top: 4%;
 			padding-bottom: 12%;
-			align-content: center;
-			align-items: center;
 			flex-direction:column;
 
 			@media only screen and (min-width: 768px) {
@@ -76,20 +74,20 @@ html, body {
 				padding-bottom: 15%;
 				padding-top: 7%;
 			}
+
 			.button-holder {
 				margin: 0 auto;
-				padding-top: 5%;
+				padding-top: 2%;
 				min-height: 75px;
 
-				@media only screen and (max-width: 768px) {
-					padding-top: 10%;
-				}
-
 				.link-button {
-					margin-top: 2em;
+					display: inline-block;
+					text-align: center;
+					margin-top: 1em;
+					margin-right: 1em;
 					font-size: 1rem;
 					min-width: 150px;
-					max-width: 150px;
+					max-width: 250px;
 					min-height: 50px;
 					padding: 1em 2em;
 					border: solid;
@@ -216,7 +214,6 @@ html, body {
 				color: #111;
 			}
 
-
 		}
 
 		.contact-card {
@@ -272,12 +269,7 @@ html, body {
 			height: 5%;
 			width: 100%;
 		}
-
-
   }
-
-
-
 
 	@for $i from 1 through 6 {
 		&.active-slide#{$i} {
