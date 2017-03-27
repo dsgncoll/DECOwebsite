@@ -63,16 +63,52 @@ html, body {
 			margin: 0 auto;
 			width: 95%;
 			height: 95%;
-			padding: 15%;
-			padding-top: 10%;
-			padding-bottom: 15%;
-
+			padding-right: 15%;
+			padding-left: 15%;
+			padding-top: 4%;
+			padding-bottom: 12%;
+			align-content: center;
+			align-items: center;
 			flex-direction:column;
 
 			@media only screen and (min-width: 768px) {
 				padding: 19%;
 				padding-bottom: 15%;
 				padding-top: 7%;
+			}
+			.button-holder {
+				margin: 0 auto;
+				padding-top: 5%;
+				min-height: 75px;
+
+				@media only screen and (max-width: 768px) {
+					padding-top: 10%;
+				}
+
+				.link-button {
+					margin-top: 2em;
+					font-size: 1rem;
+					min-width: 150px;
+					max-width: 150px;
+					min-height: 50px;
+					padding: 1em 2em;
+					border: solid;
+					border-width: 2px;
+					border-color: #000;
+					border-radius: 5px;
+					background: none;
+					color: #000;
+					z-index: 1;
+					font-family: gotham_rounded_book;
+					text-decoration: none;
+
+					&:hover {
+						background: #000;
+						color: #fff;
+						transition: linear 0.2s;
+						cursor: pointer;
+					}
+				}
 			}
 
 			.title-logo {
@@ -218,6 +254,7 @@ html, body {
 					margin-right: 1%;
 				}
 			}
+
 		}
 
 		.slide-base {
